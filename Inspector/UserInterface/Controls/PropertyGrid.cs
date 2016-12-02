@@ -326,8 +326,8 @@ namespace ChristianMoser.WpfInspector.UserInterface.Controls
                 }
 
                 _properties.AddRange(PropertyGridItemFactory.GetPropertyItems(instance));
-                _properties.AddRange(PropertyGridItemFactory.GetFieldItems(instance));
-                _properties.AddRange(PropertyGridItemFactory.GetMethodItems(instance));
+                //_properties.AddRange(PropertyGridItemFactory.GetFieldItems(instance));
+                //_properties.AddRange(PropertyGridItemFactory.GetMethodItems(instance));
                 Properties.Refresh();
                 UpdateSelectedProperty();
             }
